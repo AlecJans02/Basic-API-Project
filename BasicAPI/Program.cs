@@ -4,4 +4,11 @@ var app = builder.Build();
 
 app.Run();
 
+record Customer(Guid Id, string FullName);
+
+class CustomerRepository
+{
+        
+}
+
 
